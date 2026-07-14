@@ -1,13 +1,11 @@
 /* إعدادات عامة لتغيير الخط لكل الموقع وشكل الصفحة */
 body {
-    background-color: #f5f6fa; /* خلفية رمادية فاتحة جداً ومريحة للعين */
-    font-family: 'Cairo', sans-serif; /* الخط العربي الاحترافي الجديد */
+    background-color: #f5f6fa; 
+    font-family: 'Cairo', sans-serif;
     margin: 0;
     padding: 20px;
-    color: #2f3640; /* لون كتابة رمادي غامق شيك بدل الأسود السادة */
+    color: #2f3640; 
 }
-
-/* تنسيق قسم العنوان */
 .header-section {
     text-align: center;
     margin-top: 40px;
@@ -23,11 +21,11 @@ h1 {
 
 p {
     font-size: 20px;
-    color: #7f8c8d; /* لون رمادي هادي للوصف */
+    color: #7f8c8d; 
     margin-top: 0;
 }
 
-/* الخط الفاصل اللي سألت عليه.. خليناه شيك وناعم */
+
 .main-divider {
     border: none;
     height: 2px;
@@ -37,44 +35,44 @@ p {
     border-radius: 5px;
 }
 
-/* الحاوية الرئيسية للكروت وخليناهم يجوا جنب بعض */
+
 .services-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px; /* مسافة بين كل كرت والتاني */
+    gap: 30px; 
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* تنسيق الكرت نفسه */
+
 .card {
-    background-color: #ffffff; /* الكرت لونه أبيض عشان ينطق فوق الخلفية الرمادية */
-    border-radius: 15px; /* حواف دائرية ناعمة */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* ضل خفيف جداً بيدي إحساس 3D محترف */
+    background-color: #ffffff; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); 
     width: 300px;
     text-align: center;
     overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* تأثير حركة ناعم */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
     padding-bottom: 15px;
 }
 
-/* تأثير لما تحط الماوس على الكرت (Hover) */
+
 .card:hover {
-    transform: translateY(-10px); /* الكرت بيترفع لفوق شوية بشكل جمالي */
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* الضل بيكبر عشان يبان إنه طار */
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); 
 }
 
-/* تنسيق الصور جوه الكروت */
+
 .card img {
     width: 100%;
     height: 200px;
-    object-fit: cover; /* بيخلي الصورة متناسقة ومتقصوصة صح جوه المربع */
+    object-fit: cover; 
     border-bottom: 1px solid #f1f2f6;
 }
 
-/* تنسيق عناوين الخدمات جوه الكروت */
+
 .card h3 {
     font-size: 22px;
     color: #2c3e50;
